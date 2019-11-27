@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	margin:auto;
+	background-color: #888888;
+}
+.container{
+	margin: auto;
+	width: 90%;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.texto{
+	color: #000;
+	font-size: 20px;
+	font-family: arial;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.logo img{
+	width: auto;
+	height: 120px;
+}
+section{
+	display: flex;
+	margin: auto;
+}
+.foto{
+	height: 100%;
+	margin-bottom: 10px;
+	border:2px solid #fff;
+	margin-bottom: 10px;
+	border-radius: 100%;
+	font-family: arial;
+	padding: 2px;
+}
+.foto img{
+	width: auto;
+	height: 150px;
+}
+.forms{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 60%;
+	margin-bottom: 40px;
+	border: 2px solid #fff;
+	padding-top: 10px;
+	border-radius:20px;
+}
+.input{
+	margin-bottom: 10px;
+	height: 30px;
+	border:2px solid #191919;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 14px;
+	width: 50%;
+}
+.cadastro{
+	background-color: #888888;
+}
+.nascimento{
+	color:#000;
+	font-family:arial;
+	font-size: 16px;
+}
+.sexos{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.sexo_m, .sexo_f{
+	float:left;
+	margin-right: 10px;
+	font-family: arial;
+}
+.texto_sexo{
+	padding-right: 5px;
+	font-size: 16px;
+}
+footer{
+	display: flex;
+	margin: auto;
+	background-color: #222222;
+}
+.txt_footer{
+	color:#fff;
+	font-family: arial;
+	font-size:16px;
+	margin-top: 10px;
+	text-align: center;
+}
+.opnioes{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.area_op{
+	width: 60%;
+	color:#000;
+	margin-bottom: 20px;
+	height: 60px;
+	padding: 10px;
+}
+@media (max-width: 500px){
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	margin:auto;
+	background-color: #888888;
+}
+.container{
+	margin: auto;
+	width: 90%;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.texto{
+	color: #000;
+	font-size: 20px;
+	font-family: arial;
+	margin-top:10px;
+}
+.logo img{
+	width: auto;
+	height: 80px;
+}
+.foto{
+	height: 100%;
+	margin-bottom: 10px;
+	border:2px solid #fff;
+	margin-bottom: 10px;
+	border-radius: 100%;
+	font-family: arial;
+	padding: 2px;
+}
+.foto img{
+	width: auto;
+	height: 90px;
+}
+.forms{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 140px;
+	margin-top: 10px;
+}
+.input{
+	margin-bottom: 10px;
+	height: 20px;
+	padding-left: 10px;
+	border:1px solid #191919;
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 13px;
+	width: 50%;
+}
+}
+/*.container{
+	margin: auto;
+	width: 90%;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.texto{
+	color: #000;
+	font-family: arial;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.logo img{
+	width: auto;
+	height: 80px;
+}
+section{
+	display: flex;
+	margin: auto;
+}
+.cadastro{
+	background-color: #888888;
+}
+.forms{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 140px;
+}
+.nascimento{
+	color:#000;
+	font-family:arial;
+	font-size: 12px;
+}
+.sexos{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.sexo_m, .sexo_f{
+	float:left;
+	margin-right: 10px;
+	font-family: arial;
+}
+.texto_sexo{
+	padding-right: 5px;
+	font-size: 14px;
+}
+.input{
+	margin-bottom: 10px;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 4px;
+	border-style: none;
+}*/
